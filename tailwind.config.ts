@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'playfair': ['Playfair Display', 'serif'],
+        'poppins': ['Poppins', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -49,9 +53,10 @@ export default {
         },
       },
       backgroundImage: {
-        'gradient-ocean': 'var(--gradient-ocean)',
-        'gradient-sunset': 'var(--gradient-sunset)',
-        'gradient-luxury': 'var(--gradient-luxury)',
+        'gradient-india': 'var(--gradient-india)',
+        'gradient-saffron': 'var(--gradient-saffron)',
+        'gradient-green': 'var(--gradient-green)',
+        'gradient-heritage': 'var(--gradient-heritage)',
         'gradient-overlay': 'var(--gradient-overlay)',
       },
       boxShadow: {
