@@ -33,7 +33,7 @@ const wildlifeDestinations = [
     id: 4,
     name: "Gir National Park",
     location: "Gujarat",
-    image: "https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1543467675-e446894b49cc?w=800&q=80",
     description: "The only natural habitat of the Asiatic Lion in the world.",
     wildlife: "Asiatic Lions, Leopards, Deer"
   },
@@ -41,7 +41,7 @@ const wildlifeDestinations = [
     id: 5,
     name: "Periyar Wildlife Sanctuary",
     location: "Kerala",
-    image: "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1508196622903-befbdfe0c134?w=800&q=80",
     description: "Scenic sanctuary with picturesque lake, known for elephant herds and boat safaris.",
     wildlife: "Elephants, Tigers, Sambar Deer"
   },
@@ -49,7 +49,7 @@ const wildlifeDestinations = [
     id: 6,
     name: "Sundarbans National Park",
     location: "West Bengal",
-    image: "https://images.unsplash.com/photo-1612544386345-6894e8d4f0d7?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1623607249498-b5c5faa3c2c6?w=800&q=80",
     description: "World's largest mangrove forest, home to the famous Royal Bengal Tigers.",
     wildlife: "Bengal Tigers, Crocodiles, Dolphins"
   }

@@ -33,7 +33,7 @@ const beachDestinations = [
     id: 4,
     name: "Marina Beach",
     location: "Chennai, Tamil Nadu",
-    image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1582719471137-c3967ffb1c42?w=800&q=80",
     description: "One of the longest urban beaches in the world, perfect for morning walks and evening strolls.",
     features: "Urban Beach, Local Cuisine"
   },

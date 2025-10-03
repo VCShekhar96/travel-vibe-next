@@ -27,7 +27,7 @@ const hillStations = [
     id: 3,
     name: "Darjeeling",
     location: "West Bengal",
-    image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1563552249-d0b7d4d3e3d0?w=800&q=80",
     description: "Famous for tea plantations, toy train, and stunning views of Kanchenjunga peak.",
     altitude: "2,042 m",
     bestTime: "Apr-Jun, Sep-Nov"
@@ -36,7 +36,7 @@ const hillStations = [
     id: 4,
     name: "Ooty",
     location: "Tamil Nadu",
-    image: "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1598524485550-f5c2d0402bf1?w=800&q=80",
     description: "The Nilgiri Queen with botanical gardens, lakes, and pleasant weather throughout the year.",
     altitude: "2,240 m",
     bestTime: "Oct-Mar"
@@ -54,7 +54,7 @@ const hillStations = [
     id: 6,
     name: "Nainital",
     location: "Uttarakhand",
-    image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1591825729269-caeb344f6df2?w=800&q=80",
     description: "Picturesque lake town surrounded by mountains, perfect for boating and nature walks.",
     altitude: "2,084 m",
     bestTime: "Mar-Jun, Sep-Nov"

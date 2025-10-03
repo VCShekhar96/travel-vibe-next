@@ -17,7 +17,7 @@ const spiritualPlaces = [
     id: 2,
     name: "Golden Temple",
     location: "Amritsar, Punjab",
-    image: "https://images.unsplash.com/photo-1580066248338-2eb6c3c93044?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=800&q=80",
     description: "The holiest Sikh shrine, covered in gold, welcoming all faiths with free community meals.",
     significance: "Sikhism"
   },
@@ -25,7 +25,7 @@ const spiritualPlaces = [
     id: 3,
     name: "Tirupati Balaji",
     location: "Andhra Pradesh",
-    image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1609920658906-8223bd289001?w=800&q=80",
     description: "One of the richest and most visited pilgrimage sites, dedicated to Lord Venkateswara.",
     significance: "Hinduism"
   },
@@ -33,7 +33,7 @@ const spiritualPlaces = [
     id: 4,
     name: "Rishikesh",
     location: "Uttarakhand",
-    image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1571498664957-fde285d79857?w=800&q=80",
     description: "Yoga capital of the world, nestled in the Himalayas along the holy Ganges river.",
     significance: "Yoga, Meditation, Hinduism"
   },
@@ -41,7 +41,7 @@ const spiritualPlaces = [
     id: 5,
     name: "Bodh Gaya",
     location: "Bihar",
-    image: "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80",
     description: "The place where Buddha attained enlightenment under the Bodhi Tree.",
     significance: "Buddhism"
   },
@@ -49,7 +49,7 @@ const spiritualPlaces = [
     id: 6,
     name: "Meenakshi Temple",
     location: "Madurai, Tamil Nadu",
-    image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1582632909276-e8f71a0ac558?w=800&q=80",
     description: "Ancient temple with towering gopurams, dedicated to Goddess Meenakshi and Lord Shiva.",
     significance: "Hinduism"
   }
