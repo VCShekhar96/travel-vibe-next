@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const spiritualPlaces = [
   {
@@ -122,9 +123,17 @@ const Spiritual = () => {
                     <div className="bg-muted rounded-lg p-3 mb-4">
                       <p className="text-xs text-foreground font-medium">{destination.significance}</p>
                     </div>
-                    <Button variant="outline" className="w-full group-hover:bg-secondary group-hover:text-secondary-foreground transition-all">
-                      Learn More
-                    </Button>
+                    {destination.id === 2 ? (
+                      <Link to="/destinations/golden-temple">
+                        <Button variant="outline" className="w-full group-hover:bg-secondary group-hover:text-secondary-foreground transition-all">
+                          Learn More
+                        </Button>
+                      </Link>
+                    ) : (
+                      <Button variant="outline" className="w-full group-hover:bg-secondary group-hover:text-secondary-foreground transition-all">
+                        Learn More
+                      </Button>
+                    )}
                   </CardContent>
                 </Card>
               ))}

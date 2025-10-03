@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const heritageDestinations = [
   {
@@ -138,9 +139,17 @@ const Heritage = () => {
                     <p className="text-sm text-muted-foreground mb-4 line-clamp-3">
                       {destination.description}
                     </p>
-                    <Button variant="outline" className="w-full group-hover:bg-secondary group-hover:text-secondary-foreground transition-all">
-                      Learn More
-                    </Button>
+                    {destination.id === 1 ? (
+                      <Link to="/destinations/taj-mahal">
+                        <Button variant="outline" className="w-full group-hover:bg-secondary group-hover:text-secondary-foreground transition-all">
+                          Learn More
+                        </Button>
+                      </Link>
+                    ) : (
+                      <Button variant="outline" className="w-full group-hover:bg-secondary group-hover:text-secondary-foreground transition-all">
+                        Learn More
+                      </Button>
+                    )}
                   </CardContent>
                 </Card>
               ))}

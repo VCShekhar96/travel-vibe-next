@@ -13,6 +13,8 @@ import Wildlife from "./pages/Wildlife";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import TajMahal from "./pages/destinations/TajMahal";
+import GoldenTemple from "./pages/destinations/GoldenTemple";
 
 const queryClient = new QueryClient();
 
@@ -32,6 +34,8 @@ const App = () => (
           <Route path="/wildlife" element={<Wildlife />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/destinations/taj-mahal" element={<TajMahal />} />
+          <Route path="/destinations/golden-temple" element={<GoldenTemple />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
