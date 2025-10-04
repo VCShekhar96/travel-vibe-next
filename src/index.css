@@ -8,77 +8,82 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 45 100% 98%;
-    --foreground: 25 47% 15%;
+    --background: 210 20% 98%;
+    --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
-    --card-foreground: 25 47% 15%;
+    --card-foreground: 222 47% 11%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 25 47% 15%;
+    --popover-foreground: 222 47% 11%;
 
-    --primary: 138 45% 45%;
+    --primary: 221 83% 53%;
     --primary-foreground: 0 0% 100%;
+    --primary-glow: 221 83% 63%;
 
-    --secondary: 28 100% 58%;
+    --secondary: 262 52% 47%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 45 40% 96%;
-    --muted-foreground: 35 16% 47%;
+    --muted: 210 20% 96%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 207 90% 54%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 174 72% 56%;
+    --accent-foreground: 222 47% 11%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 45 32% 91%;
-    --input: 45 32% 91%;
-    --ring: 138 45% 45%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 221 83% 53%;
 
     --radius: 0.75rem;
 
-    --gradient-india: linear-gradient(135deg, hsl(28 100% 58%), hsl(0 0% 100%), hsl(138 45% 45%));
-    --gradient-saffron: linear-gradient(135deg, hsl(28 100% 58%), hsl(38 92% 50%));
-    --gradient-green: linear-gradient(135deg, hsl(138 45% 45%), hsl(148 50% 40%));
-    --gradient-heritage: linear-gradient(135deg, hsl(28 100% 58%) 0%, hsl(138 45% 45%) 100%);
-    --gradient-overlay: linear-gradient(135deg, hsl(25 47% 15% / 0.7), hsl(28 100% 58% / 0.5));
+    --gradient-primary: linear-gradient(135deg, hsl(221 83% 53%), hsl(262 52% 47%));
+    --gradient-accent: linear-gradient(135deg, hsl(174 72% 56%), hsl(221 83% 53%));
+    --gradient-business: linear-gradient(135deg, hsl(222 47% 11% / 0.95), hsl(221 83% 53% / 0.9));
+    --gradient-hero: linear-gradient(135deg, hsl(221 83% 53%) 0%, hsl(262 52% 47%) 50%, hsl(174 72% 56%) 100%);
+    --gradient-overlay: linear-gradient(135deg, hsl(222 47% 11% / 0.8), hsl(221 83% 53% / 0.6));
+    --gradient-glass: linear-gradient(135deg, hsl(0 0% 100% / 0.1), hsl(0 0% 100% / 0.05));
     
-    --shadow-soft: 0 10px 40px -10px hsl(28 100% 58% / 0.2);
-    --shadow-medium: 0 20px 50px -15px hsl(28 100% 58% / 0.3);
-    --shadow-glow: 0 0 60px hsl(28 100% 58% / 0.4);
+    --shadow-soft: 0 10px 40px -10px hsl(221 83% 53% / 0.2);
+    --shadow-medium: 0 20px 50px -15px hsl(221 83% 53% / 0.3);
+    --shadow-glow: 0 0 60px hsl(221 83% 53% / 0.4);
+    --shadow-card: 0 4px 20px hsl(222 47% 11% / 0.08);
     
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
 
   .dark {
-    --background: 25 47% 15%;
-    --foreground: 45 40% 98%;
+    --background: 222 47% 11%;
+    --foreground: 210 20% 98%;
 
-    --card: 25 33% 20%;
-    --card-foreground: 45 40% 98%;
+    --card: 222 40% 15%;
+    --card-foreground: 210 20% 98%;
 
-    --popover: 25 33% 20%;
-    --popover-foreground: 45 40% 98%;
+    --popover: 222 40% 15%;
+    --popover-foreground: 210 20% 98%;
 
-    --primary: 138 45% 45%;
+    --primary: 221 83% 53%;
     --primary-foreground: 0 0% 100%;
+    --primary-glow: 221 83% 63%;
 
-    --secondary: 28 100% 58%;
+    --secondary: 262 52% 47%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 25 33% 20%;
-    --muted-foreground: 35 20% 65%;
+    --muted: 222 40% 15%;
+    --muted-foreground: 215 20% 65%;
 
-    --accent: 207 90% 54%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 174 72% 56%;
+    --accent-foreground: 222 47% 11%;
 
     --destructive: 0 63% 31%;
-    --destructive-foreground: 45 40% 98%;
+    --destructive-foreground: 210 20% 98%;
 
-    --border: 25 33% 20%;
-    --input: 25 33% 20%;
-    --ring: 138 45% 45%;
+    --border: 222 40% 20%;
+    --input: 222 40% 20%;
+    --ring: 221 83% 53%;
   }
 }
 
@@ -89,5 +94,32 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-feature-settings: "liga" 1, "calt" 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .glass-effect {
+    @apply backdrop-blur-xl bg-white/10 border border-white/20;
+  }
+  
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-glow;
+  }
+  
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-primary);
+  }
+  
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradientShift 3s ease infinite;
+  }
+  
+  @keyframes gradientShift {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
   }
 }
