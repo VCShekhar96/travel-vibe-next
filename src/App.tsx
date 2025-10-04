@@ -15,6 +15,9 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import TajMahal from "./pages/destinations/TajMahal";
 import GoldenTemple from "./pages/destinations/GoldenTemple";
+import Varanasi from "./pages/destinations/Varanasi";
+import TirupatiBalaji from "./pages/destinations/TirupatiBalaji";
+import Rishikesh from "./pages/destinations/Rishikesh";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +39,9 @@ const App = () => (
           <Route path="/contact" element={<Contact />} />
           <Route path="/destinations/taj-mahal" element={<TajMahal />} />
           <Route path="/destinations/golden-temple" element={<GoldenTemple />} />
+          <Route path="/destinations/varanasi" element={<Varanasi />} />
+          <Route path="/destinations/tirupati-balaji" element={<TirupatiBalaji />} />
+          <Route path="/destinations/rishikesh" element={<Rishikesh />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

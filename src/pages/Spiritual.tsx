@@ -129,6 +129,24 @@ const Spiritual = () => {
                           Learn More
                         </Button>
                       </Link>
+                    ) : destination.id === 1 ? (
+                      <Link to="/destinations/varanasi">
+                        <Button variant="outline" className="w-full group-hover:bg-secondary group-hover:text-secondary-foreground transition-all">
+                          Learn More
+                        </Button>
+                      </Link>
+                    ) : destination.id === 3 ? (
+                      <Link to="/destinations/tirupati-balaji">
+                        <Button variant="outline" className="w-full group-hover:bg-secondary group-hover:text-secondary-foreground transition-all">
+                          Learn More
+                        </Button>
+                      </Link>
+                    ) : destination.id === 4 ? (
+                      <Link to="/destinations/rishikesh">
+                        <Button variant="outline" className="w-full group-hover:bg-secondary group-hover:text-secondary-foreground transition-all">
+                          Learn More
+                        </Button>
+                      </Link>
                     ) : (
                       <Button variant="outline" className="w-full group-hover:bg-secondary group-hover:text-secondary-foreground transition-all">
                         Learn More
