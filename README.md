@@ -2,7 +2,7 @@
 
 ## Project info
 
-## Project Linl : https://travel-vibe-next.lovable.app
+## Project Link : https://travel-vibe-next.lovable.app
 
 **URL**: https://lovable.dev/projects/d40c01b5-cf8d-40c6-ad17-3d5aaa1abdb0
 
