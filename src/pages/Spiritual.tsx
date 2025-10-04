@@ -10,7 +10,7 @@ const spiritualPlaces = [
     id: 1,
     name: "Varanasi",
     location: "Uttar Pradesh",
-    image: "https://images.unsplash.com/photo-1587135941948-670b381f08ce?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=800&q=80",
     description: "The spiritual capital of India, one of the oldest living cities where the Ganges flows with divine grace.",
     significance: "Hinduism, Buddhism, Jainism"
   },
@@ -18,7 +18,7 @@ const spiritualPlaces = [
     id: 2,
     name: "Golden Temple",
     location: "Amritsar, Punjab",
-    image: "https://images.unsplash.com/photo-1589539049633-c1b4f0555fb8?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=800&q=80",
     description: "The holiest Sikh shrine, covered in gold, welcoming all faiths with free community meals.",
     significance: "Sikhism"
   },
@@ -26,7 +26,7 @@ const spiritualPlaces = [
     id: 3,
     name: "Tirupati Balaji",
     location: "Andhra Pradesh",
-    image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80",
     description: "One of the richest and most visited pilgrimage sites, dedicated to Lord Venkateswara.",
     significance: "Hinduism"
   },
@@ -34,7 +34,7 @@ const spiritualPlaces = [
     id: 4,
     name: "Rishikesh",
     location: "Uttarakhand",
-    image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80",
     description: "Yoga capital of the world, nestled in the Himalayas along the holy Ganges river.",
     significance: "Yoga, Meditation, Hinduism"
   },
@@ -42,7 +42,7 @@ const spiritualPlaces = [
     id: 5,
     name: "Bodh Gaya",
     location: "Bihar",
-    image: "https://images.unsplash.com/photo-1603401587475-b72c5b1a8de0?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=800&q=80",
     description: "The place where Buddha attained enlightenment under the Bodhi Tree.",
     significance: "Buddhism"
   },
@@ -50,7 +50,7 @@ const spiritualPlaces = [
     id: 6,
     name: "Meenakshi Temple",
     location: "Madurai, Tamil Nadu",
-    image: "https://images.unsplash.com/photo-1606217484220-4023b21c7da5?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1609416383593-e4dd8369a6a7?w=800&q=80",
     description: "Ancient temple with towering gopurams, dedicated to Goddess Meenakshi and Lord Shiva.",
     significance: "Hinduism"
   }
